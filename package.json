@@ -1,0 +1,25 @@
+{
+  "name": "pupeteer-recaptcha",
+  "version": "1.0.0",
+  "description": "Puppeteer Recaptcha",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alikil/Pupeteer-Recaptcha.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/alikil/Pupeteer-Recaptcha/issues"
+  },
+  "homepage": "https://github.com/alikil/Pupeteer-Recaptcha#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "puppeteer": "^1.19.0",
+    "qs": "^6.8.0"
+  }
+}
