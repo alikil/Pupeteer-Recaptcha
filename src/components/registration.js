@@ -15,8 +15,8 @@ exports.forms = async(targetPage,ip,apikey) => {
     const sitekey = await parser.parse(HTML,'data-sitekey="','"')
     const pageurl = await page.url()
 
-    //const grecaptchakey = await recaptcha.solveService(sitekey,pageurl,ip,apikey)
-    const grecaptchakey = "15gfdhd5fh46dfhsdfh"
+    const grecaptchakey = await recaptcha.solveService(sitekey,pageurl,ip,apikey)
+    //const grecaptchakey = "15gfdhd5fh46dfhsdfh"
     console.log(grecaptchakey)
  
 
